@@ -1,0 +1,6 @@
+__Version 1.0.0__
+1. Initial working version
+
+__Version 1.0.5__
+1. Updated some code to python3 compatible
+

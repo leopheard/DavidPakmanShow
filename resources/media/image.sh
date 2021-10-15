@@ -1,35 +1,83 @@
 convert -resize 512x512 icon.jpg icon.jpg
-
 convert -resize 512x512 icon.jpeg icon.jpg
-
 convert -resize 512x512 icon.png icon.jpg
-
 convert -resize 512x512 logo.jpg icon.jpg
-
 convert -resize 512x512 logo.png icon.jpg
-
+convert -resize 512x512 logo.jpeg icon.jpg
+convert -resize 512x512 logo.svg icon.jpg
+convert -resize 512x512 icon.svg icon.jpg
+convert -resize 512x512 600x600bb.jpg icon.jpg
 convert -resize 512x512 1.jpg 1.jpg
-
-convert -resize 512x512 1.png 1.png
-
 convert -resize 512x512 1.jpeg 1.jpg
-
-convert -resize 512x512 1.jpg 1.jpg
-
 convert -resize 512x512 1.png 1.jpg
-
-convert -resize 512x512 1.jpeg 1.jpg
-
-convert -resize 512x512 1.jpg 1.jpg
-
-convert -resize 512x512 1.png 1.png
-
-convert -resize 512x512 1.jpeg 1.jpg
-
+convert -resize 512x512 2.jpeg 2.jpg
+convert -resize 512x512 2.jpg 2.jpg
+convert -resize 512x512 2.png 2.jpg
+convert -resize 512x512 3.jpeg 3.jpg
+convert -resize 512x512 3.jpg 3.jpg
+convert -resize 512x512 3.png 3.jpg
+convert -resize 512x512 4.jpeg 4.jpg
+convert -resize 512x512 4.jpg 4.jpg
+convert -resize 512x512 4.png 4.jpg
+convert -resize 512x512 5.jpeg 5.jpg
+convert -resize 512x512 5.jpg 5.jpg
+convert -resize 512x512 5.png 5.jpg
+convert -resize 512x512 6.jpeg 6.jpg
+convert -resize 512x512 6.jpg 6.jpg
+convert -resize 512x512 6.png 6.jpg
+convert -resize 512x512 7.jpeg 7.jpg
+convert -resize 512x512 7.jpg 7.jpg
+convert -resize 512x512 7.png 7.jpg
+convert -resize 512x512 8.jpeg 8.jpg
+convert -resize 512x512 8.jpg 8.jpg
+convert -resize 512x512 8.png 8.jpg
+convert -resize 512x512 9.jpeg 9.jpg
+convert -resize 512x512 9.jpg 9.jpg
+convert -resize 512x512 9.png 9.jpg
+convert -resize 512x512 9.jpeg 9.jpg
+convert -resize 512x512 10.jpg 10.jpg
+convert -resize 512x512 10.png 10.jpg
+convert -resize 512x512 10.jpeg 10.jpg
+convert -resize 512x512 11.jpg 11.jpg
+convert -resize 512x512 11.png 11.jpg
+convert -resize 512x512 11.jpeg 11.jpg
+convert -resize 512x512 12.jpg 12.jpg
+convert -resize 512x512 12.png 12.jpg
+convert -resize 512x512 12.jpeg 12.jpg
+convert -resize 512x512 13.jpg 13.jpg
+convert -resize 512x512 13.png 13.jpg
+convert -resize 512x512 13.jpeg 13.jpg
+convert -resize 512x512 14.jpg 14.jpg
+convert -resize 512x512 14.png 14.jpg
+convert -resize 512x512 14.jpeg 14.jpg
+convert -resize 512x512 15.jpg 15.jpg
+convert -resize 512x512 15.png 15.jpg
+convert -resize 512x512 15.jpeg 15.jpg
+convert -resize 512x512 16.jpg 16.jpg
+convert -resize 512x512 16.png 16.jpg
+convert -resize 512x512 16.jpeg 16.jpg
+convert -resize 512x512 17.jpg 17.jpg
+convert -resize 512x512 17.png 17.jpg
+convert -resize 512x512 17.jpeg 17.jpg
+convert -resize 512x512 18.jpg 18.jpg
+convert -resize 512x512 18.png 18.jpg
+convert -resize 512x512 18.jpeg 18.jpg
+convert -resize 512x512 19.jpg 19.jpg
+convert -resize 512x512 19.png 19.jpg
+convert -resize 512x512 19.jpeg 19.jpg
+convert -resize 512x512 20.jpg 20.jpg
+convert -resize 512x512 20.png 20.jpg
+convert -resize 512x512 20.jpeg 20.jpg
 convert -resize 1280x720 fanart.jpg fanart.jpg
-
 convert -resize 1280x720 fanart.jpeg fanart.jpg
-
 convert -resize 1280x720 fanart.png fanart.jpg
-
+convert -resize 1280x720 fanart.svg fanart.jpg
+convert -resize 1280x720 fanart1.svg fanart1.jpg
+convert -resize 1280x720 fanart1.jpg fanart1.jpg
+convert -resize 1280x720 fanart1.jpeg fanart1.jpg
+convert -resize 1280x720 fanart1.png fanart1.jpg
+convert -resize 1280x720 fanart2.svg fanart2.jpg
+convert -resize 1280x720 fanart2.jpg fanart2.jpg
+convert -resize 1280x720 fanart2.jpeg fanart2.jpg
+convert -resize 1280x720 fanart2.png fanart2.jpg
 read

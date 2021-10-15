@@ -23,7 +23,6 @@ def main_menu():
     ]
     return items
 
-
 @plugin.route('/all_episodes/')
 def all_episodes():
     soup = davidpakmanshow.get_soup(URL)
@@ -44,7 +43,6 @@ def past_episodes():
     past_episodes = davidpakmanshow.get_past_episodes(soup2)
     items = davidpakmanshow.compile_past_episodes(past_episodes)
     return items
-
 
 if __name__ == '__main__':
     plugin.run()

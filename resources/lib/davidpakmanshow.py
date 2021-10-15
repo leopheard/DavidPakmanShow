@@ -10,7 +10,6 @@ def get_soup(url):
 #ORIGINAL LINK get_soup("http://feeds.feedburner.com/davidpakmanshow")
 get_soup("http://votesoon16:votesoon16@feeds.feedburner.com/tdpsmembers2012")
 
-
 def get_soup2(url2):
     page = requests.get(url2)
     soup2 = BeautifulSoup(page.text, 'html.parser')

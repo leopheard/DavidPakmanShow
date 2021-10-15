@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.davidpakmanshow"
-	name="David Pakman Show"
-	version="1.0.5"
-	provider-name="leopheard">
+<addon id="plugin.audio.davidpakmanshow" name="David Pakman Show" version="1.0.6" provider-name="leopheard">
   <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
+  <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>audio</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">The David Pakman Show video addon</summary>
+    <summary lang="en">The David Pakman Show</summary>
     <description lang="en">The David Pakman Show started as a community radio show called Midweek Politics in the basement of WXOJs studio in Northampton, Massachusetts. Today, it is a daily internationally syndicated politics and news talk show airing on radio, television, and the internet, and on Free Speech TV via DirecTV and DISH Network</description>
     <platform>all</platform>
     <forum></forum>
@@ -23,9 +22,9 @@
         	<assets>
 			<icon>resources/media/icon.jpg</icon>
 			<fanart>resources/media/fanart.jpg</fanart>
-			<screenshot>resources/media/screenshot1.jpg</screenshot>
-			<screenshot>resources/media/screenshot2.jpg</screenshot>
-			<screenshot>resources/media/screenshot3.jpg</screenshot>
+			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/2.jpg</screenshot>
+			<screenshot>resources/media/3.jpg</screenshot>
 		</assets>
   </extension>
 </addon>
